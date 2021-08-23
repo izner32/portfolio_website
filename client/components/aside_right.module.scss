@@ -4,7 +4,7 @@ $lexend-deca: "Lexend Deca";
 $font-thick: 700;
 $font-thin: 100;
 
-.aside{
+.aside_right{
     background:black;
     width:50%;
     height:100vh;
@@ -31,6 +31,13 @@ $font-thin: 100;
             font-family:$inter;
             font-weight: $font-thin;
             font-size:20px;
+        }
+
+        & div {
+
+            & .container__logo {
+                margin:100px;
+            }
         }
     }
 }
