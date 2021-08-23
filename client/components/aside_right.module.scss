@@ -1,0 +1,36 @@
+$inter: Inter;
+$lexend-deca: "Lexend Deca";
+
+$font-thick: 700;
+$font-thin: 100;
+
+.aside{
+    background:black;
+    width:50%;
+    height:100vh;
+    position:fixed;
+    top:0;
+    right:0;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        width:60%;
+        text-align: center;
+
+        & h1 {
+            font-family:$inter;
+            font-weight: $font-thick;
+            font-size:48px;
+            margin:0;
+        }
+        & p {
+
+            font-family:$inter;
+            font-weight: $font-thin;
+            font-size:20px;
+        }
+    }
+}

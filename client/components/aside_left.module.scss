@@ -1,0 +1,79 @@
+$inter: Inter;
+$lexend-deca: "Lexend Deca";
+
+$font-thick: 700;
+$font-thin: 100;
+
+.container {
+    height: 100vh;
+    width: 50%;
+    scroll-snap-type: y proximity;
+
+    .section {
+    }
+
+    &__section_1 {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & .section_1__wrap {
+            margin-top: 115px;
+            width: 70%;
+
+            & .section_1__heading {
+                font-family: $inter;
+                font-weight: $font-thick;
+                font-size: 35px;
+                margin: 0;
+            }
+            & .section_1__paragraph {
+                font-family: $inter;
+                font-weight: 400;
+                font-size: 20px;
+            }
+        }
+    }
+
+    &__section_2 {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & .section_2__wrap {
+            margin: 0 auto;
+            width: 70%;
+            height: auto;
+            margin-bottom: 40px;
+
+            & .section_2__heading {
+                font-family: $inter;
+                font-weight: $font-thick;
+                font-size: 25px;
+                margin: 0;
+            }
+
+            & .section_2__icons {
+            }
+
+            & .section_2__paragraph {
+                font-family: $inter;
+                font-weight: 400;
+                font-size: 14px;
+            }
+        }
+    }
+
+    &__section_3 {
+        height: 80%;
+        background: yellow;
+    }
+
+    &__section_4 {
+        height: 80%;
+        background: blue;
+    }
+}
