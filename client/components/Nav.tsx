@@ -6,9 +6,9 @@ function Nav() {
         <>
             <ul className={styles.nav}>
                 <li className={styles.nav__li}>HOME</li>
-                <li className={styles.nav__li}>ABOUT</li>
                 <li className={styles.nav__li}>PROJECTS</li>
-                <li className={styles.nav__li}>LOGIN</li>
+                <li className={styles.nav__li}>BLOG</li>
+                <li className={styles.nav__li}>CONTACT</li>
             </ul>
         </>
     )
