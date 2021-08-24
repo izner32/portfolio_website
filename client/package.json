@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d client"
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://izner32.github.io/portfolio_website.",
   "dependencies": {
