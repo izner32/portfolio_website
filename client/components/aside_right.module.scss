@@ -54,7 +54,26 @@ $font-sizeExtraExtraSmall: 10px;
 
 /* large tablet styles */
 @media screen and (max-width: 950px) {
-
+    .aside_right {
+    
+        &__container {
+    
+            & .container__intro {
+                font-size: $font-sizeExtraExtraSmall;
+            }
+            & .container__name {
+                font-size: $font-sizeMed;
+            }
+            & .container__info{
+                font-size: $font-sizeExtraExtraSmall;
+            }
+    
+            & .container__skills {
+                & .container__logo {
+                }
+            }
+        }
+    }
 }
 
 /* mobile */

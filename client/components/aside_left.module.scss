@@ -16,7 +16,7 @@ $font-sizeExtraExtraSmall: 10px;
     width: 50%;
 
     .section {
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid black;
     }
 
     &__heading {
@@ -208,7 +208,7 @@ $font-sizeExtraExtraSmall: 10px;
         &__heading {
             font-family: $inter;
             font-weight: $font-thick;
-            font-size: $font-sizeExtraSmall;
+            font-size: $font-sizeSmall;
             margin: 0;
             margin-bottom: 40px;
         }
