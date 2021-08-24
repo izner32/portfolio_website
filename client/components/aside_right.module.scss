@@ -2,42 +2,95 @@ $inter: Inter;
 $lexend-deca: "Lexend Deca";
 
 $font-thick: 700;
-$font-thin: 100;
+$font-thin: 200;
 
-.aside_right{
-    background:black;
-    width:50%;
-    height:100vh;
-    position:fixed;
-    top:0;
-    right:0;
-    color:white;
-    display:flex;
+$font-sizeBig: 40px;
+$font-sizeMed: 30px;
+$font-sizeSmall: 20px;
+$font-sizeExtraSmall: 14px;
+$font-sizeExtraExtraSmall: 10px;
+
+.aside_right {
+    background: black;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
 
-    .container {
-        width:60%;
+    &__container {
+        width: 60%;
         text-align: center;
 
-        & h1 {
-            font-family:$inter;
-            font-weight: $font-thick;
-            font-size:48px;
-            margin:0;
-        }
-        & p {
-
-            font-family:$inter;
+        & .container__intro {
+            font-family: $inter;
             font-weight: $font-thin;
-            font-size:20px;
+            font-size: $font-sizeExtraSmall;
+        }
+        & .container__name {
+            font-family: $inter;
+            font-weight: $font-thick;
+            font-size: $font-sizeBig;
+            margin: 0;
+        }
+        & .container__info{
+            font-family: $inter;
+            font-weight: $font-thin;
+            font-size: $font-sizeExtraSmall;
+            margin-bottom:3rem;
         }
 
-        & div {
-
+        & .container__skills {
+            margin:1rem;
             & .container__logo {
-                margin:100px;
             }
         }
     }
 }
+
+/* large tablet styles */
+@media screen and (max-width: 950px) {
+
+}
+
+/* mobile */
+@media screen and (max-width: 550px) {
+    .aside_right {
+        background: black;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index:10;
+    
+        &__container {
+            width: 60%;
+            text-align: center;
+    
+            & h1 {
+
+            }
+            & p {
+
+            }
+    
+            & div {
+
+                & .container__logo {
+                    margin: 100px;
+                }
+            }
+        }
+    }
+}
+
+

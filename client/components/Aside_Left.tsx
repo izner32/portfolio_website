@@ -21,7 +21,7 @@ function Aside_Left() {
                             <img></img>
                         </div>
                         <p className={styles.section_2__paragraph}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit magnam cupiditate at voluptatum pariatur odio.</p>
-                        <a className={styles.section_2__link}>view code in github</a>
+                        <div className={styles.section_2__wrap_link}><div className={styles.link__bg}></div><a className={styles.link__text}>view code in github</a></div>
                     </div>
                     <div className={styles.section_2__wrap}>
                         <h1 className={styles.section_2__heading}>Todo List</h1>
@@ -31,7 +31,7 @@ function Aside_Left() {
                             <img></img>
                         </div>
                         <p className={styles.section_2__paragraph}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit magnam cupiditate at voluptatum pariatur odio.</p>
-                        <a className={styles.section_2__link}>view code in github</a>
+                        <div className={styles.section_2__wrap_link}><div className={styles.link__bg}></div><a className={styles.link__text}>view code in github</a></div>
                     </div>
                 </section>
                 <section className={`${styles.container__section_3} ${styles.section}`}>
@@ -41,14 +41,14 @@ function Aside_Left() {
                         <hr/>
                         <p className={styles.section_3__tags}>programming paradigm, javascript</p>
                         <p className={styles.section_3__paragraph}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit magnam cupiditate at voluptatum pariatur odio.</p>
-                        <a className={styles.section_3__link}>view article</a>
+                        <div className={styles.section_3__wrap_link}><div className={styles.link__bg}></div><a className={styles.link__text}>view article</a></div>
                     </div>
                     <div className={styles.section_3__wrap}>
                         <h1 className={styles.section_3__heading}>Currying</h1>
                         <hr/>
                         <p className={styles.section_3__tags}>programming paradigm, javascript</p>
                         <p className={styles.section_3__paragraph}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit magnam cupiditate at voluptatum pariatur odio.</p>
-                        <a className={styles.section_3__link}>view article</a>
+                        <div className={styles.section_3__wrap_link}><div className={styles.link__bg}></div><a className={styles.link__text}>view article</a></div>
                     </div>
                 </section>
                 <section className={`${styles.container__section_4} ${styles.section}`}>
